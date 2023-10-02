@@ -1,9 +1,13 @@
 class ProductoTecnologico:
-    def __init__(self, marca: str, voltaje: int, precio: float, eficiencia: str):
+    def __init__(self, marca, voltaje, precio, eficiencia):
         self.marca = marca
         self.voltaje = voltaje
         self.precio = precio
         self.eficiencia = eficiencia
+
+
+
+
 
     def calcular_descuento(self):
         if self.__eficiencia in ['A', 'B']:
