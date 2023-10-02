@@ -14,11 +14,6 @@ def menu():
     print("6. Salir")
 
 
-#def registrar_tv(lista_tvs):
-#    print("Registro de TV:")
-#    marca = input("Ingrese la marca del TV: ")
-#    voltaje = int(input("Ingrese el voltaje del TV: "))
-#    precio = float(input("Ingrese el precio del TV: "
 
 
 
@@ -83,9 +78,6 @@ def registrar_scooter(lista_scooters):
 
 
 
-#scooter = Scoter(aro, peso, marca, voltaje, precio, eficiencia)
-#    lista_scooters.append(scooter)
-#    print("Scooter registrado 
 
 
 
@@ -133,12 +125,6 @@ def mostrar_productos_registrados():
         print(bicicleta.get_aro())
         print(bicicleta.get_peso())
         print(bicicleta.get_precio())
-
-
-
-#        print(bicicleta.get_aro())
-#        print(bicicleta.get_peso())
-#        print(bicicleta.get_precio())
 
 
 
